@@ -1,0 +1,12 @@
+## Learning Tables + Loading Queries ##
+
+use AdventureWorks2022
+Select * from [HumanResources].[Employee] #Selection
+
+Select top 20 LoginID, JobTitle, HireDate from [HumanResources].[Employee] #filtering
+
+select * from Person.Person
+
+select FirstName, LastName from Person.Person
+
+select FirstName + ' ' + LastName as Fullname from Person.Person
