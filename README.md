@@ -1,2 +1,2 @@
 # Adventure_Works_SQL
-My SQL Projects
+A Repository of the SQL Projects I am working on
