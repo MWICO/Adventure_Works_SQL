@@ -1,4 +1,9 @@
 ## Learning Tables + Loading Queries ##
+04/02/2024
+Database: AdventureWorks 2022
+Program: Microsoft SQL
+
+--------------------------------------------------------------------------------------------------------------
 
 use AdventureWorks2022
 Select * from [HumanResources].[Employee] #Selection
@@ -9,4 +14,4 @@ select * from Person.Person
 
 select FirstName, LastName from Person.Person
 
-select FirstName + ' ' + LastName as Fullname from Person.Person
+select FirstName + ' ' + LastName as Fullname from Person.Person #Combining Columns with new name
